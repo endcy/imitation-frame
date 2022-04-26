@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapper nameSpace="com.mybatispro.mapper.UserMapper">
+    <select id="getUserById" resultType ="com.mybatispro.entity.User">
+        select id,age,name from user where id = ?
+    </select>
+</mapper>
